@@ -39,9 +39,16 @@ GEM
     addressable (2.3.8)
     ansi (1.5.0)
     arel (6.0.3)
+    autoprefixer-rails (5.2.1.2)
+      execjs
+      json
     bcrypt (3.1.10)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.3.3)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.2.19)
+    bootstrap_form (2.1.1)
     builder (3.2.2)
     byebug (3.5.1)
       columnize (~> 0.8)
@@ -233,6 +240,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
+  bootstrap_form
   capybara
   devise
   guard

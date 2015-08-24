@@ -32,6 +32,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# bootstrap for easy styling
+gem 'bootstrap-sass'
+
+# bootstrap_form for easy form rendering
+gem 'bootstrap_form'
+
 # devise for authentication and authorization
 gem 'devise'
 
