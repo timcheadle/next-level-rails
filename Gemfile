@@ -32,9 +32,24 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# hirb for better console output
+gem 'hirb'
+
+# kaminari for pagination
+gem 'kaminari'
+
+# redcarpet for markdown content support
+gem 'redcarpet'
+
+# seedbank for better DB seed flexibility
+gem 'seedbank'
+
 group :development, :test do
+  # Use pry instead of irb for rails console
+  gem 'pry-rails'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'pry-byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
