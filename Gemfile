@@ -55,3 +55,30 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 end
 
+group :development do
+  # guard for automatically running tests on changes
+  gem 'guard', require: false
+  gem 'guard-bundler', require: false
+  gem 'guard-minitest', require: false
+  gem 'rb-fsevent', require: false
+end
+
+group :test do
+  # capybara for automated user testing
+  gem 'capybara'
+
+  # launchy for debugging automated user testing
+  gem 'launchy'
+
+  # minitest-reporters for improved test output
+  gem 'minitest-reporters'
+
+  # mocha for better mocks and stubs for tests
+  gem 'mocha'
+
+  # poltergeist for tests that require running javascript
+  gem 'poltergeist'
+
+  # shoulda for easily testing validations
+  gem 'shoulda'
+end
