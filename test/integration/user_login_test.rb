@@ -9,8 +9,8 @@ class UserLoginTest < ActionDispatch::IntegrationTest
   test 'valid users can sign in' do
     fill_in 'Email', with: @user.email
     fill_in 'Password', with: default_password
-    click_button 'Log In'
+    click_button 'Log in'
 
-    assert page.has_content 'Signed in successfully.'
+    assert page.has_content? 'Signed in successfully.'
   end
 end

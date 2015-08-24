@@ -26,5 +26,9 @@ class ActiveSupport::TestCase
   include TestPasswordHelper
 end
 
+class ActionController::TestCase
+  include Devise::TestHelpers
+end
+
 # Make sure password helpers are available in fixtures
 ActiveRecord::FixtureSet.context_class.send :include, TestPasswordHelper
