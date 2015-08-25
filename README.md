@@ -6,5 +6,6 @@ This is the reference app for the Next Level Rails class I teach. It's intended 
 
 - [Rails Guides](http://guides.rubyonrails.org/index.html)
 - [Thoughtbot Trail Map: Ruby](https://github.com/thoughtbot/trail-map/blob/master/ruby.md)
+- [Thoughtbot Trail Map: Rails](https://github.com/thoughtbot/trail-map/blob/master/rails.md)
 - [Michael Hartl's Ruby on Rails tutorial](https://www.railstutorial.org/book)
 - [RailsCasts](http://railscasts.com/)
