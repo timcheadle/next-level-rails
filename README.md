@@ -1,28 +1,10 @@
-== README
+# Next Level Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the reference app for the Next Level Rails class I teach. It's intended to give students an example of how a small, production-ready Rails app might be implemented.
 
-Things you may want to cover:
+## Resources
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+- [Rails Guides](http://guides.rubyonrails.org/index.html)
+- [Thoughtbot Trail Map: Ruby](https://github.com/thoughtbot/trail-map/blob/master/ruby.md)
+- [Michael Hartl's Ruby on Rails tutorial](https://www.railstutorial.org/book)
+- [RailsCasts](http://railscasts.com/)
