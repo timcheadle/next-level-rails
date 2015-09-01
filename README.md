@@ -29,18 +29,18 @@ install.
     $ rbenv global 2.2.3
     ```
 
-1. Check your Ruby version; it should be `2.2.3`
-
-    ```
-    $ ruby -v
-    ```
-
 1. Add rbenv to bash so that it loads every time you open a terminal
 
     ```
     $ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
 
     $ source ~/.bash_profile
+    ```
+
+1. Check your Ruby version; it should be `2.2.3`.
+
+    ```
+    $ ruby -v
     ```
 
 1. Install PostgreSQL (which we use as a database)
